@@ -27,7 +27,7 @@ _Tools that connect directly to GitHub/GitLab to review Pull Requests, comment o
 
 - **[Greptile](https://greptile.com)** An AI engine that indexes the entire codebase to understand context. It focuses on answering complex questions about the repo and reviewing code with full-repository awareness.
 
-- **[Cursor Bugbot](https://cursor.com/bugbot)**
+- **[Cursor Bugbot](https://cursor.com/bugbot)** AI-powered PR review that runs automatically to catch real bugs and security issues with a low false-positive rate.
 
 ## IDE Assistants & Copilots
 
