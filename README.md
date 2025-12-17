@@ -33,12 +33,16 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 ## IDE Assistants & Copilots
 
-_Tools that live inside the editor for autocomplete and real-time generation._
+_Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
 
-- **[GitHub Copilot](https://github.com/features/copilot)** - The standard AI pair programmer for autocomplete and chat.
-- **[Cursor](https://cursor.sh)** - An AI-first code editor (VS Code fork) with built-in codebase indexing.
-- **[Supermaven](https://supermaven.com)** - Known for an extremely large context window (1M tokens) and speed.
-- **[Tabnine](https://www.tabnine.com)** - Offers strong privacy guarantees and on-premise deployment options.
+- **[GitHub Copilot](https://github.com/features/copilot)** - The standard AI pair programmer for autocomplete, chat, and inline edits.
+- **[Cursor](https://cursor.com)** - AI-first code editor with built-in chat, autocomplete, and agent workflows.
+- **[Claude Code](https://claude.com/product/claude-code)** - Claude's coding agent for terminal, IDE, and web workflows that can manage large codebases and implement changes.
+- **[OpenAI Codex](https://developers.openai.com/codex/ide)** - OpenAI's coding agent that can read, modify, and run code, available as a VS Code extension with optional cloud delegation.
+- **[Google Antigravity](https://antigravity.google)** - Agent-first IDE with tab autocomplete, natural language commands, and cross-surface agents across editor, terminal, and browser.
+- **[Kilo Code](https://kilo.ai)** - Open-source agentic engineering platform with IDE/CLI support, tab autocomplete, and multi-agent orchestration.
+- **[Cline](https://github.com/cline/cline)** - Autonomous IDE agent that can create/edit files, run commands, and use the browser with user approval.
+- **[OpenCode](https://opencode.ai)** - Open-source coding agent for terminal, IDE, or desktop with multi-session workflows and broad model support.
 
 ## Key Research & Papers
 
