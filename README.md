@@ -20,6 +20,8 @@ A curated list of AI-powered tools, agents, and platforms dedicated to automatin
 
 _Tools that connect directly to GitHub/GitLab to review Pull Requests, comment on code, and suggest fixes asynchronously._
 
+_Note: This list is not intended to compare tools; as maintainers of Kodus, we are biased._
+
 - **[Kodus](https://kodus.io)** (⭐ _Maintainer_)  
   An AI code review agent focusing on high-signal feedback. It allows teams to define custom review guidelines (using plain English) to enforce architectural patterns and best practices, reducing noise in the review process.
 
