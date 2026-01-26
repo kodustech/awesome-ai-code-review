@@ -29,6 +29,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[Greptile](https://greptile.com)** An AI engine that indexes the entire codebase to understand context. It focuses on answering complex questions about the repo and reviewing code with full-repository awareness.
 
+- **[Zenable](https://zenable.io)** AI guardrails that learn your team's standards and ensure coding agents follow them. Works across IDE (via MCP), pre-commit, and PR review to catch bugs and security issues in AI-generated code in real-time.
+
 - **[Cursor Bugbot](https://cursor.com/bugbot)** AI-powered PR review that runs automatically to catch real bugs and security issues with a low false-positive rate.
 
 ## IDE Assistants & Copilots
