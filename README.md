@@ -31,6 +31,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[Cursor Bugbot](https://cursor.com/bugbot)** AI-powered PR review that runs automatically to catch real bugs and security issues with a low false-positive rate.
 
+- **[Revieko](https://synqra.tech/revieko)** - Repo-specific architecture drift detection in pull requests (structural risk + hotspots).
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
