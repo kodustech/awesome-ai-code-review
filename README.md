@@ -48,6 +48,7 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 - **[Gito](https://github.com/Nayjest/Gito)** - Open-source AI code reviewer for GitHub and GitLab. Runs locally via CLI or in CI/CD pipelines, and works with any LLM provider — including self-hosted models (Ollama, LM Studio, vLLM) for fully private reviews.
 
 - **[Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril)** - Open-source AI coding orchestrator with automated verification gates (build, test, lint, format, AI review) that enforce code quality before any PR reaches human review. Orchestrates Claude Code, Codex, Antigravity, Copilot, and OpenCode.
+- **[Optibot](https://getoptimal.ai)** - AI code review for GitHub & GitLab that catches production-breaking bugs, business-logic errors, and security issues with line-specific feedback and optional inline fixes. The same engine also ships as a CLI, an MCP server, and a Claude Code skill.
 
 ## IDE Assistants & Copilots
 
@@ -109,6 +110,7 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[prpack](https://github.com/Lucas2944/prpack)** - Zero-dependency Node CLI that packs a pull request (diff plus the full post-change content of every touched file) into a single markdown file optimized for LLM code review. Companion [GitHub Action](https://github.com/Lucas2944/prpack-action) and [browser demo](https://lucas2944.github.io/prpack-demo/) available.
 - **[LegacyDoc AI](https://www.romanticode.com/tools/ai-code-audit-report/)** - VS Code extension that generates AI code audit reports, architecture maps, and review-ready context packs from a workspace before cleanup or code review.
 - **[Signum](https://github.com/heurema/signum)** - Multi-model code review pipeline that dispatches diffs to Claude, Codex, and Gemini as independent reviewers with adversarial isolation, then bundles findings into a tamper-evident proofpack.
+- **[Optibot CLI](https://getoptimal.ai)** - Review uncommitted changes, branch diffs, or patch files from the terminal for GitHub & GitLab. API-key auth and stable exit codes for CI/CD (GitHub Actions, GitLab CI, Jenkins), plus token-metered security scans.
 
 
 ## Benchmarks
