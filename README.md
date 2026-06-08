@@ -98,6 +98,7 @@ _Tools focusing specifically on vulnerabilities and SAST (Static Application Sec
 
 - **[Snyk DeepCode](https://snyk.io/platform/deepcode-ai/)** - AI-powered engine to find security flaws faster than traditional static analysis.
 - **[Semgrep AI](https://semgrep.dev)** - Combines rule-based static analysis with AI to reduce false positives in security scanning.
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** - Trust scoring and identity verification for autonomous AI agent wallets on Solana. Lets code review pipelines verify that agents making x402 micropayments or accessing gated APIs are who they claim to be. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 
 ## CLI & Local Workflows
 
