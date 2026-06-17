@@ -109,6 +109,7 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[prpack](https://github.com/Lucas2944/prpack)** - Zero-dependency Node CLI that packs a pull request (diff plus the full post-change content of every touched file) into a single markdown file optimized for LLM code review. Companion [GitHub Action](https://github.com/Lucas2944/prpack-action) and [browser demo](https://lucas2944.github.io/prpack-demo/) available.
 - **[LegacyDoc AI](https://www.romanticode.com/tools/ai-code-audit-report/)** - VS Code extension that generates AI code audit reports, architecture maps, and review-ready context packs from a workspace before cleanup or code review.
 - **[Signum](https://github.com/heurema/signum)** - Multi-model code review pipeline that dispatches diffs to Claude, Codex, and Gemini as independent reviewers with adversarial isolation, then bundles findings into a tamper-evident proofpack.
+- **[claude-code-multi-model-review](https://github.com/baiyanmo/claude-code-multi-model-review)** - Claude Code skill that invokes multiple AI models (DeepSeek, Doubao, Qwen, OpenAI) in parallel to review git diffs with cross-validation across model outputs.
 
 
 ## Benchmarks
