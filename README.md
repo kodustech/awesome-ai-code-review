@@ -49,6 +49,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril)** - Open-source AI coding orchestrator with automated verification gates (build, test, lint, format, AI review) that enforce code quality before any PR reaches human review. Orchestrates Claude Code, Codex, Antigravity, Copilot, and OpenCode.
 
+- **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
