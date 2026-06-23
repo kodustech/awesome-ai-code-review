@@ -49,6 +49,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril)** - Open-source AI coding orchestrator with automated verification gates (build, test, lint, format, AI review) that enforce code quality before any PR reaches human review. Orchestrates Claude Code, Codex, Antigravity, Copilot, and OpenCode.
 
+- **[Swarm Orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator)** - GitHub Action and CLI that audits AI-generated pull requests for eleven cheat patterns (relaxed tests, swallowed errors, fake renames, and more). Advisory by default, with an opt-in merge gate.
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
