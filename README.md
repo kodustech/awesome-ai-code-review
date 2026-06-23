@@ -118,6 +118,7 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[SWE-bench](https://www.swebench.com/)** - Evaluation framework for language models on real-world software engineering issues.
 - **[HumanEval](https://github.com/openai/human-eval)** - OpenAI's dataset for evaluating code generation capabilities.
 - **[ReviewBenchLite](https://www.polarity.so/research/2)** - Comprehensive evaluation of code review agents on top 100 git repos.
+- **[ShopPay Audit Benchmark](https://github.com/Dmatut7/shoppay-audit-benchmark)** - Spec-grounded benchmark for testing whether AI code review/coding agents catch business-logic defects in payment, wallet, webhook, and authorization flows.
 
 ---
 
