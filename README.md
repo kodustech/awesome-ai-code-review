@@ -48,6 +48,9 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 - **[Gito](https://github.com/Nayjest/Gito)** - Open-source AI code reviewer for GitHub and GitLab. Runs locally via CLI or in CI/CD pipelines, and works with any LLM provider — including self-hosted models (Ollama, LM Studio, vLLM) for fully private reviews.
 
 - **[Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril)** - Open-source AI coding orchestrator with automated verification gates (build, test, lint, format, AI review) that enforce code quality before any PR reaches human review. Orchestrates Claude Code, Codex, Antigravity, Copilot, and OpenCode.
+- **[Optibot](https://getoptimal.ai)** - AI code review for GitHub & GitLab that catches production-breaking bugs, business-logic errors, and security issues with line-specific feedback and optional inline fixes. The same engine also ships as a CLI, an MCP server, and a Claude Code skill.
+
+- **[Swarm Orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator)** - GitHub Action and CLI that audits AI-generated pull requests for eleven cheat patterns (relaxed tests, swallowed errors, fake renames, and more). Advisory by default, with an opt-in merge gate.
 
 ## IDE Assistants & Copilots
 
@@ -110,6 +113,7 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[LegacyDoc AI](https://www.romanticode.com/tools/ai-code-audit-report/)** - VS Code extension that generates AI code audit reports, architecture maps, and review-ready context packs from a workspace before cleanup or code review.
 - **[Signum](https://github.com/heurema/signum)** - Multi-model code review pipeline that dispatches diffs to Claude, Codex, and Gemini as independent reviewers with adversarial isolation, then bundles findings into a tamper-evident proofpack.
 - **[claude-code-multi-model-review](https://github.com/baiyanmo/claude-code-multi-model-review)** - Claude Code skill that invokes multiple AI models (DeepSeek, Doubao, Qwen, OpenAI) in parallel to review git diffs with cross-validation across model outputs.
+- **[Optibot CLI](https://getoptimal.ai)** - Review uncommitted changes, branch diffs, or patch files from the terminal for GitHub & GitLab. API-key auth and stable exit codes for CI/CD (GitHub Actions, GitLab CI, Jenkins), plus token-metered security scans.
 
 
 ## Benchmarks
@@ -117,6 +121,7 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[SWE-bench](https://www.swebench.com/)** - Evaluation framework for language models on real-world software engineering issues.
 - **[HumanEval](https://github.com/openai/human-eval)** - OpenAI's dataset for evaluating code generation capabilities.
 - **[ReviewBenchLite](https://www.polarity.so/research/2)** - Comprehensive evaluation of code review agents on top 100 git repos.
+- **[ShopPay Audit Benchmark](https://github.com/Dmatut7/shoppay-audit-benchmark)** - Spec-grounded benchmark for testing whether AI code review/coding agents catch business-logic defects in payment, wallet, webhook, and authorization flows.
 
 ---
 
