@@ -116,6 +116,7 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[Signum](https://github.com/heurema/signum)** - Multi-model code review pipeline that dispatches diffs to Claude, Codex, and Gemini as independent reviewers with adversarial isolation, then bundles findings into a tamper-evident proofpack.
 - **[claude-code-multi-model-review](https://github.com/baiyanmo/claude-code-multi-model-review)** - Claude Code skill that invokes multiple AI models (DeepSeek, Doubao, Qwen, OpenAI) in parallel to review git diffs with cross-validation across model outputs.
 - **[Optibot CLI](https://getoptimal.ai)** - Review uncommitted changes, branch diffs, or patch files from the terminal for GitHub & GitLab. API-key auth and stable exit codes for CI/CD (GitHub Actions, GitLab CI, Jenkins), plus token-metered security scans.
+- **[h5i](https://github.com/h5i-dev/h5i)** - Rust CLI that runs several coding agents (Claude Code, Codex) on the same task in isolated git-worktree sandboxes, has them peer-review each other, then a neutral verifier replays each candidate, runs the tests itself, and merges the one that passes. Run metadata (prompts, models, commands, logs, verdict) is versioned in the repo under refs/h5i/*.
 
 
 ## Benchmarks
