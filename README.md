@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[DevIntern](https://devintern.com)** - Tool that picks up tickets from Jira, Linear, Trello, Asana, Azure DevOps, GitHub Issues, or markdown files and turns them into pull requests using the coding agent of your choice (Claude Code, Codex, Cursor, OpenCode, Gemini CLI, and others), on your machines with your own model keys. The agent self-reviews and fixes its own diff before any human sees it, a feasibility gate flags vague tickets back to the tracker with questions, and an optional paid unattended mode turns PR review comments into commits on the same branch with replies to the reviewer. Source-available (FSL-1.1).
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
