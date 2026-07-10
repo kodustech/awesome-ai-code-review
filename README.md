@@ -43,6 +43,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[AI Change Passport](https://github.com/P-r-e-m-i-u-m/ai-change-passport)** - GitHub Action and CLI that creates signed provenance reports for AI-assisted pull requests, helping reviewers see sensitive files, dependency edits, workflow changes, and test coverage signals.
 
+- **[Busleyden Guard](https://www.busleyden.com/)** - GitHub App that maps pull request changes to owners, tests, security evidence, and merge obligations. For supported high-risk changes, a candidate test must pass on the PR and fail against a targeted code mutation before the obligation clears.
+
 - **[Ejentum agent-teams (adversarial-code-review)](https://github.com/ejentum/agent-teams)** Multi-agent code-review team built on the Ejentum Reasoning Harness. Reviewer agents call `harness_code` and `harness_anti_deception` as agentic tools during the review loop; each call returns a structured scaffold (named failure pattern, executable procedure, suppression vectors, falsification test) the agent reads internally before issuing review feedback. Catches false-confident approvals and sunk-cost framings that single-agent reviewers miss.
 
 - **[Gito](https://github.com/Nayjest/Gito)** - Open-source AI code reviewer for GitHub and GitLab. Runs locally via CLI or in CI/CD pipelines, and works with any LLM provider — including self-hosted models (Ollama, LM Studio, vLLM) for fully private reviews.
