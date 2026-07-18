@@ -7,6 +7,7 @@ A curated list of AI-powered tools, agents, and platforms dedicated to automatin
 ## Contents
 
 - [Automated PR Agents](#automated-pr-agents)
+- [Design & UI Review](#design--ui-review)
 - [IDE Assistants & Copilots](#ide-assistants--copilots)
 - [Key Research & Papers](#key-research--papers)
 - [Security & Static Analysis AI](#security--static-analysis-ai)
@@ -53,6 +54,13 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 - **[Swarm Orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator)** - GitHub Action and CLI that audits AI-generated pull requests for eleven cheat patterns (relaxed tests, swallowed errors, fake renames, and more). Advisory by default, with an opt-in merge gate.
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
+
+## Design & UI Review
+
+*Reviewers that check the design quality of UI code — accessibility, typography, spacing, interaction patterns — rather than logic or security.*
+
+- **[Rams](https://www.rams.ai)** - A design-focused code reviewer for UI code (React, Vue, Svelte, SwiftUI). Reviews every pull request against 258 published rules in 9 categories — accessibility, color, typography, spacing, components, UX, motion, craft, and native — and posts inline one-click fix suggestions plus a 0-100 design score, in about a minute with no CI config. Also available as an MCP server for coding agents and a free Claude Code skill. The full rule set is public at [rams.ai/rules](https://www.rams.ai/rules).
+
 
 ## IDE Assistants & Copilots
 
