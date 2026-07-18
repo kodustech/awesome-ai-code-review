@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[HoverStare](https://github.com/liuchong/hoverstare)** - Open-source (1PL), repo-aware AI PR reviewer written in Rust. Ships as a GitHub Action, a GitHub App, or a self-hostable webhook service. The reviewing agent uses read-only repo tools (read_file/grep/glob/show_base_file) to verify suspicions before reporting, runs multi-pass voting plus a verifier pass to cut false positives, posts precise inline comments, and tracks findings across commits with auto-resolve. BYOK: Anthropic or any OpenAI-compatible endpoint (Kimi, DeepSeek, OpenRouter).
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
