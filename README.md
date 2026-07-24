@@ -125,6 +125,7 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[HumanEval](https://github.com/openai/human-eval)** - OpenAI's dataset for evaluating code generation capabilities.
 - **[ReviewBenchLite](https://www.polarity.so/research/2)** - Comprehensive evaluation of code review agents on top 100 git repos.
 - **[ShopPay Audit Benchmark](https://github.com/Dmatut7/shoppay-audit-benchmark)** - Spec-grounded benchmark for testing whether AI code review/coding agents catch business-logic defects in payment, wallet, webhook, and authorization flows.
+- **[SDKProof](https://sdkproof.dev)** - Benchmarks how well AI coding agents write an SDK's current API by compiling model-generated code against the real installed package (the compiler decides, no LLM judge). Open-source scorecards for Prisma, the Vercel AI SDK, and Zod.
 
 ---
 
