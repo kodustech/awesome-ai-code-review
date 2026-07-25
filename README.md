@@ -25,6 +25,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 - **[Kodus](https://kodus.io)** (⭐ _Maintainer_)  
   An AI code review agent focusing on high-signal feedback. It allows teams to define custom review guidelines (using plain English) to enforce architectural patterns and best practices, reducing noise in the review process.
 
+-**[Senix](https://senix.dev)** - Posts a single ship, hold, or block verdict per pull request instead of a comment flood, with a plain language risk summary and specific flags. Works as a GitHub App, an MCP tool for Cursor/Claude Code/Windsurf, and has a no login playground.
+
 - **[CodeRabbit](https://coderabbit.ai)** Provides line-by-line feedback on pull requests and generates summaries of changes. Features a chat interface within the PR to discuss the feedback with the AI.
 
 - **[Git AutoReview](https://gitautoreview.com)** VS Code extension that reviews pull requests using three AI models (Claude, GPT, Gemini) to catch bugs, security vulnerabilities, and performance issues. Supports GitHub, GitLab, and Bitbucket — the only tool covering all three platforms from inside the IDE.
