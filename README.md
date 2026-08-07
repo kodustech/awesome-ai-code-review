@@ -108,6 +108,7 @@ _Tools focusing specifically on vulnerabilities and SAST (Static Application Sec
 
 _Command-line tools for local reviews and "hacker" workflows._
 
+- [**CodeVetter**](https://github.com/Codevetter/codevetter) - Desktop, local-first verification and AI code review for agent-written code (offline SQLite; public benchmark).
 - **[Aider](https://github.com/paul-gauthier/aider)** - AI pair programming in your terminal.
 - **[Mentat](https://github.com/biobootloader/mentat)** - Coordinate edits across multiple files using command line.
 - **[OpenCommit](https://github.com/di-sukharev/opencommit)** - Generates semantic git commit messages automatically.
@@ -120,6 +121,7 @@ _Command-line tools for local reviews and "hacker" workflows._
 
 
 ## Benchmarks
+- [**CodeVetter public benchmark**](https://codevetter.com/benchmark) - Reproducible recognition benchmark for agent-written bugs (27 cases, labeled findings, stated limitations).
 - **[Code Review Benchmark](https://codereviewbench.com/)**: Comprehensive evaluation of LLM performance in AI-powered code review tasks.
 - **[SWE-bench](https://www.swebench.com/)** - Evaluation framework for language models on real-world software engineering issues.
 - **[HumanEval](https://github.com/openai/human-eval)** - OpenAI's dataset for evaluating code generation capabilities.
