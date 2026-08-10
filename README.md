@@ -25,6 +25,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 - **[Kodus](https://kodus.io)** (⭐ _Maintainer_)  
   An AI code review agent focusing on high-signal feedback. It allows teams to define custom review guidelines (using plain English) to enforce architectural patterns and best practices, reducing noise in the review process.
 
+- **[delivery-gates (ADR Guard)](https://github.com/chohan-sarmad-ali/delivery-gates)** A reference setup for bounded AI review authority: an LLM reviewer runs on every pull request under a policy whose first rule is "if nothing meets the bar, say nothing" — and it deliberately cannot block. Merge vetoes are reserved for deterministic CI gates (decision-record enforcement, release blockers) whose failure reasons can be stated exactly. MIT, self-governing.
+
 - **[CodeRabbit](https://coderabbit.ai)** Provides line-by-line feedback on pull requests and generates summaries of changes. Features a chat interface within the PR to discuss the feedback with the AI.
 
 - **[Git AutoReview](https://gitautoreview.com)** VS Code extension that reviews pull requests using three AI models (Claude, GPT, Gemini) to catch bugs, security vulnerabilities, and performance issues. Supports GitHub, GitLab, and Bitbucket — the only tool covering all three platforms from inside the IDE.
