@@ -104,6 +104,8 @@ _Tools focusing specifically on vulnerabilities and SAST (Static Application Sec
 - **[Snyk DeepCode](https://snyk.io/platform/deepcode-ai/)** - AI-powered engine to find security flaws faster than traditional static analysis.
 - **[Semgrep AI](https://semgrep.dev)** - Combines rule-based static analysis with AI to reduce false positives in security scanning.
 
+- **[linebreak-gate](https://github.com/Baktun-Studio/linebreak-gate)** - Fail-closed CI gate for AI-written code: blocks known CVEs (OSV scan) and enforces acceptance criteria a named human approved, served read-only to coding agents (Claude Code, Cursor, Codex) over MCP. Git-only, no server, no account.
+
 ## CLI & Local Workflows
 
 _Command-line tools for local reviews and "hacker" workflows._
