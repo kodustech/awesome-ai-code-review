@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[OrcaCode Review](https://github.com/Continuum-AI-Corp/orca-code-review)** GitHub Action that reviews each pull request against a P0-P3 severity rubric, posts findings on the affected lines, and fails the check on P0/P1. The reviewing model, the rubric, and the merge policy are configured outside the workflow YAML, so review strategy changes without touching the repository. MIT, built on Alibaba Open Code Review as the review engine.
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
