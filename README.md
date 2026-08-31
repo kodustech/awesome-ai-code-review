@@ -35,6 +35,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[Cursor Bugbot](https://cursor.com/bugbot)** AI-powered PR review that runs automatically to catch real bugs and security issues with a low false-positive rate.
 
+- **[Consensus Room](https://consensusroom.com)** Panel API for code review: multiple LLMs (Claude, GPT, Gemini and others) review a diff independently in parallel, each assigned a focus (bugs, security, performance, style), then a moderator model merges their findings into one report with an approve/comment/request-changes verdict.
+
 - **[Revieko](https://synqra.tech/revieko)** - Repo-specific architecture drift detection in pull requests (structural risk + hotspots).
 
 - **[Polarity](https://www.polarity.so)** - The First AI QA Engineer which does code review, testing, and long running agent tasks. Understands your entire codebase and code quality, zero fluff comments.
