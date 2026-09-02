@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[Proof](https://proof.toremlabs.com)** Records which files a human reviewer actually opened before approving an AI-written pull request, and blocks the merge until a named person signs. Free tier, MCP server for Claude Code and Cursor.
+- 
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
