@@ -118,6 +118,8 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[Optibot CLI](https://getoptimal.ai)** - Review uncommitted changes, branch diffs, or patch files from the terminal for GitHub & GitLab. API-key auth and stable exit codes for CI/CD (GitHub Actions, GitLab CI, Jenkins), plus token-metered security scans.
 - **[h5i](https://github.com/h5i-dev/h5i)** - Rust CLI that runs several coding agents (Claude Code, Codex) on the same task in isolated git-worktree sandboxes, has them peer-review each other, then a neutral verifier replays each candidate, runs the tests itself, and merges the one that passes. Run metadata (prompts, models, commands, logs, verdict) is versioned in the repo under refs/h5i/*.
 
+- **[ASTify](https://github.com/Evangelikcaos/AStify-app)** - AI-guided AST-based diff pruner GitHub Action that cuts LLM context tokens 70-80% for automated PR review, by parsing the diff into its abstract syntax tree instead of sending raw text.
+
 
 ## Benchmarks
 - **[Code Review Benchmark](https://codereviewbench.com/)**: Comprehensive evaluation of LLM performance in AI-powered code review tasks.
