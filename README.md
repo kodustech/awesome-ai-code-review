@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[PR Quorum](https://prquorum.com)** - GitHub App that runs a panel of specialist reviewers (correctness, security, architecture) on every pull request and posts one deduplicated review. Choose the model for each reviewer or bring your own OpenRouter key; configured in `.ai-review.yml`, advisory by default, with a free tier.
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
