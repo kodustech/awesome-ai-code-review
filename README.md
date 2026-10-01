@@ -34,6 +34,7 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 - **[Zenable](https://zenable.io)** AI guardrails that learn your team's standards and ensure coding agents follow them. Works across IDE (via MCP), pre-commit, and PR review to catch bugs and security issues in AI-generated code in real-time.
 
 - **[Cursor Bugbot](https://cursor.com/bugbot)** AI-powered PR review that runs automatically to catch real bugs and security issues with a low false-positive rate.
+- **[CodeGuard AI](https://javacoder716.gumroad.com/l/codeguard-ai)** - Self-hosted AI code reviewer for GitHub Pull Requests, built with Java 17+ and Spring Boot. Supports OpenAI, Gemini, and Ollama, with customizable review workflows.
 
 - **[Revieko](https://synqra.tech/revieko)** - Repo-specific architecture drift detection in pull requests (structural risk + hotspots).
 
