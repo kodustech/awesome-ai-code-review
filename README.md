@@ -103,6 +103,7 @@ _Tools focusing specifically on vulnerabilities and SAST (Static Application Sec
 
 - **[Snyk DeepCode](https://snyk.io/platform/deepcode-ai/)** - AI-powered engine to find security flaws faster than traditional static analysis.
 - **[Semgrep AI](https://semgrep.dev)** - Combines rule-based static analysis with AI to reduce false positives in security scanning.
+- **[Aevral](https://aevral.com)** - GitHub App that reviews pull requests for security flaws (access control, business logic, injection, XSS, SSRF, path traversal, LLM-integration issues) and posts an advisory Check with inline comments. Free on public repositories up to 500 PR reviews per org per month.
 
 ## CLI & Local Workflows
 
