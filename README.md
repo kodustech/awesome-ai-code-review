@@ -37,6 +37,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[Revieko](https://synqra.tech/revieko)** - Repo-specific architecture drift detection in pull requests (structural risk + hotspots).
 
+- **[Revix](https://www.revix.ai)** - AI code review for GitHub, GitLab, and Bitbucket Cloud. Extracts coding rules from your repository and enforces them in PR review. Public repos free; paid plans from €20/seat/month billed annually.
+
 - **[Polarity](https://www.polarity.so)** - The First AI QA Engineer which does code review, testing, and long running agent tasks. Understands your entire codebase and code quality, zero fluff comments.
 
 - **[Conclave AI](https://conclave-ai.dev)** - A council of three models (Claude, GPT-5, Gemini) reviews each PR and, with a PRD attached, flags scope drift a diff-only review misses. Includes an autofix worker; self-hostable (FSL).
