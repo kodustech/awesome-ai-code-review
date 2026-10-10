@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[Tently](https://tently.dev)** - GitHub App that reviews pull requests for regressions in callers outside the diff and for changes that break architectural decisions your team already made. Decisions are mined from merged PRs, review threads and docs (ADRs, CLAUDE.md), then approved by the team; the same decisions reach Claude Code and Cursor through an [MCP server](https://github.com/tently-team/tently-mcp).
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
