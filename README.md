@@ -53,6 +53,7 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 - **[Swarm Orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator)** - GitHub Action and CLI that audits AI-generated pull requests for eleven cheat patterns (relaxed tests, swallowed errors, fake renames, and more). Advisory by default, with an opt-in merge gate.
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
+- **[CodeCritic](https://github.com/CodeCritic-Reviews/review-action)** - AI-powered GitHub Action that reviews pull requests and posts inline review comments.
 
 ## IDE Assistants & Copilots
 
