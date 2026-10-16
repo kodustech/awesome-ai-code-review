@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[autonomous-dev-loop](https://github.com/koydas/autonomous-dev-loop)** - Open source GitHub Actions loop that generates PRs from issues, reviews them against the PR head's test and syntax results (a failing check forces `REQUEST_CHANGES`, unverifiable evidence withholds approval), and runs a bounded auto-fix (3 attempts) before a human merges. Ships offline evals of the review stage.
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
@@ -117,6 +119,7 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[claude-code-multi-model-review](https://github.com/baiyanmo/claude-code-multi-model-review)** - Claude Code skill that invokes multiple AI models (DeepSeek, Doubao, Qwen, OpenAI) in parallel to review git diffs with cross-validation across model outputs.
 - **[Optibot CLI](https://getoptimal.ai)** - Review uncommitted changes, branch diffs, or patch files from the terminal for GitHub & GitLab. API-key auth and stable exit codes for CI/CD (GitHub Actions, GitLab CI, Jenkins), plus token-metered security scans.
 - **[h5i](https://github.com/h5i-dev/h5i)** - Rust CLI that runs several coding agents (Claude Code, Codex) on the same task in isolated git-worktree sandboxes, has them peer-review each other, then a neutral verifier replays each candidate, runs the tests itself, and merges the one that passes. Run metadata (prompts, models, commands, logs, verdict) is versioned in the repo under refs/h5i/*.
+- **[ai-dev-tools](https://github.com/koydas/ai-dev-tools)** - Claude Code commands that review a PR or a local patch by running the repo's own tests, lint and type-check; a failure counts as pre-existing only if the merge-base CI failed the same check, with the run URL cited.
 
 
 ## Benchmarks
