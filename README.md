@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[MergeJudge](https://mergejudge.si)** - GitHub App and open-source (MIT) GitHub Action that sorts each pull request into auto, review or block, with reasons and line comments, so teams with many AI agent PRs can see which ones need a human. Deterministic rules set the minimum lane and the model can only raise it. Bring your own model key, or run rules-only.
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
