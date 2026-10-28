@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[prbot](https://github.com/ayanag5076-commits/prbot)** - Open-source (MIT) LangGraph agent that reviews PRs for security and performance bugs, writes a patch, and verifies it by running the repo's pytest suite in a network-isolated Docker sandbox, feeding failures back for up to 3 repair attempts before opening a fix PR. Tests and pytest config are read-only to the patcher. Ships as a GitHub Action.
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
