@@ -51,6 +51,7 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 - **[Optibot](https://getoptimal.ai)** - AI code review for GitHub & GitLab that catches production-breaking bugs, business-logic errors, and security issues with line-specific feedback and optional inline fixes. The same engine also ships as a CLI, an MCP server, and a Claude Code skill.
 
 - **[Swarm Orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator)** - GitHub Action and CLI that audits AI-generated pull requests for eleven cheat patterns (relaxed tests, swallowed errors, fake renames, and more). Advisory by default, with an opt-in merge gate.
+- **[agent-pr-audit](https://github.com/gleephoenix/agent-pr-audit)** - Read-only auditor for AI-agent-authored PRs. Reports which PRs touched tests, CI, lint or CODEOWNERS, which merged without formal review, merge time against diff size, and bypass markers (skips, `continue-on-error`, type suppressions). Produces a findings report and evidence table; no write access and no CI execution. MIT, from GLEE.
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
