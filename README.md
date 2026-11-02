@@ -54,6 +54,8 @@ _Note: This list is not intended to compare tools; as maintainers of Kodus, we a
 
 - **[heygrc](https://heygrc.com)** GitHub App that reviews pull requests against compliance frameworks (ISO 27001, SOC 2, GDPR, EU AI Act, and more), flags changes that put a control at risk, and says what to fix, citing the control clause.
 
+- **[Veridu](https://veridu.io)** Verification for code your AI agent writes. Coding agents (Claude Code, Codex, Cursor) call it over MCP before committing, and its GitHub App reviews pull requests. It finds the code a change affects, checks the change in that context, and reports findings with the evidence for each.
+
 ## IDE Assistants & Copilots
 
 _Tools that integrate with editors or local environments for autocomplete, chat, and agentic coding._
