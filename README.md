@@ -67,6 +67,7 @@ _Tools that integrate with editors or local environments for autocomplete, chat,
 - **[Cline](https://github.com/cline/cline)** - Autonomous IDE agent that can create/edit files, run commands, and use the browser with user approval.
 - **[OpenCode](https://opencode.ai)** - Open-source coding agent for terminal, IDE, or desktop with multi-session workflows and broad model support.
 - **[SimpleReview](https://chromewebstore.google.com/detail/baiophhkajldflnpaaijgdigbkomkimm)** - Browser extension for in-browser visual code review. Hover any element on a live website, click "Fix it" to get AI-powered fix suggestions in a side panel.
+- **[Unvibe](https://unvibe.site/)** - Desktop app that explains code you select in any app, in plain English beside your editor, so you can read an AI-written change before you merge it. Free for Mac and Windows.
 
 ## Key Research & Papers
 
