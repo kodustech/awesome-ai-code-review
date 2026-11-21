@@ -103,6 +103,7 @@ _Tools focusing specifically on vulnerabilities and SAST (Static Application Sec
 
 - **[Snyk DeepCode](https://snyk.io/platform/deepcode-ai/)** - AI-powered engine to find security flaws faster than traditional static analysis.
 - **[Semgrep AI](https://semgrep.dev)** - Combines rule-based static analysis with AI to reduce false positives in security scanning.
+- **[How Could I Be Hacked](https://github.com/sandhiveio/How-Could-I-Be-Hacked)** - Coding-agent skill that adapts security checks from open-source reviews to PR diffs and records local results and coverage gaps.
 
 ## CLI & Local Workflows
 
