@@ -103,6 +103,7 @@ _Tools focusing specifically on vulnerabilities and SAST (Static Application Sec
 
 - **[Snyk DeepCode](https://snyk.io/platform/deepcode-ai/)** - AI-powered engine to find security flaws faster than traditional static analysis.
 - **[Semgrep AI](https://semgrep.dev)** - Combines rule-based static analysis with AI to reduce false positives in security scanning.
+- **[Hushavyr](https://github.com/mathias82/Hushavyr)** - VS Code extension and terminal that reviews code and scans for vulnerabilities, secrets and vulnerable dependencies with local models via Ollama; nothing leaves the machine.
 
 ## CLI & Local Workflows
 
