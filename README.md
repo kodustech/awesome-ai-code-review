@@ -66,6 +66,7 @@ _Tools that integrate with editors or local environments for autocomplete, chat,
 - **[Kilo Code](https://kilo.ai)** - Open-source agentic engineering platform with IDE/CLI support, tab autocomplete, and multi-agent orchestration.
 - **[Cline](https://github.com/cline/cline)** - Autonomous IDE agent that can create/edit files, run commands, and use the browser with user approval.
 - **[OpenCode](https://opencode.ai)** - Open-source coding agent for terminal, IDE, or desktop with multi-session workflows and broad model support.
+- **[AI Code Review](https://puzaricloud.in/apps/ai-code-review/)** - VS Code extension that reviews uncommitted changes, a file or a selection with your own API key (OpenAI, Anthropic, Gemini, DeepSeek and more) or a local Ollama model. No account. Findings show in the Problems panel. Freemium.
 - **[SimpleReview](https://chromewebstore.google.com/detail/baiophhkajldflnpaaijgdigbkomkimm)** - Browser extension for in-browser visual code review. Hover any element on a live website, click "Fix it" to get AI-powered fix suggestions in a side panel.
 
 ## Key Research & Papers
