@@ -119,6 +119,8 @@ _Command-line tools for local reviews and "hacker" workflows._
 - **[h5i](https://github.com/h5i-dev/h5i)** - Rust CLI that runs several coding agents (Claude Code, Codex) on the same task in isolated git-worktree sandboxes, has them peer-review each other, then a neutral verifier replays each candidate, runs the tests itself, and merges the one that passes. Run metadata (prompts, models, commands, logs, verdict) is versioned in the repo under refs/h5i/*.
 
 
+- **[100x Engineer Skill](https://github.com/DeadInternetStudios/100x-engineer-skill)** - Skill and CLI workflow that sends coding-agent work through spec checks and second-model review, then records the evidence before it can be called done.
+
 ## Benchmarks
 - **[Code Review Benchmark](https://codereviewbench.com/)**: Comprehensive evaluation of LLM performance in AI-powered code review tasks.
 - **[SWE-bench](https://www.swebench.com/)** - Evaluation framework for language models on real-world software engineering issues.
